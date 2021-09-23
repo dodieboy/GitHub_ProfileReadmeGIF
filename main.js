@@ -6,10 +6,10 @@ var typewriter = new Typewriter(app, {
     delay: 150
 });
 
-typewriter.typeString('Hello FOlks!')
+typewriter.typeString('Hey there!')
     .pauseFor(1)
     .deleteAll()
-    .typeString('My name is <strong>David</strong>')
+    .typeString('I am <strong>Alan</strong>')
     .pauseFor(100)
     .deleteAll()
     .typeString('<strong>Welcome to my github profile</strong>')
